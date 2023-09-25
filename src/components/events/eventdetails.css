@@ -1,0 +1,19 @@
+.cls-btn {
+    background-color: #c91e25 !important;
+    border-radius: 5px;
+  }
+  
+  .reg-btn {
+    background-color: #00df9a !important;
+    border-radius: 5px;
+  }
+  .mx-20 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .unordered-list{
+    max-width: 800px !important;
+    flex-wrap: wrap !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}

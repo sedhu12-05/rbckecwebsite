@@ -1,0 +1,121 @@
+.fadeintext{
+  animation: fadeIn 4.4s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+.title{
+  position:relative;
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  gap:2rem;
+  align-items: center;
+  text-align: center;
+  padding: 19% 17%;
+  color:#00df9a;
+ 
+  
+}
+.heading{
+  text-align: center;
+  margin-top: -80px;
+}
+.card--x{
+  position:relative;
+  /* margin-top:70px; */
+  background: inherit;
+}
+
+.quote{
+  padding-top: 2rem;
+}
+.about-main {
+  margin: 0px;
+  color: white;
+  overflow-x: hidden;
+  line-height: 2rem;
+}
+.card--x--odd{
+  position: relative;
+}
+@media only screen and (max-width: 600px) {
+  .about-main {
+    width: 100%;
+    overflow-x: hidden;
+    margin-top: 0px;
+    padding: 0px;
+    
+  }
+  .title>h1{
+    font-size: 24px;
+  }
+  .title>pre{
+    font-size: 14px;
+    
+  }
+  .quote{
+    font-size: 14px !important;
+    padding-top: 2rem;
+  }
+  .orgin{
+    font-size: 14px !important;
+    width: 100% !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .title{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    width: 100% !important;
+    margin-top: 100px !important;
+    align-items: center !important;
+  }
+  .card--x{
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    text-align: center !important;
+    align-items: center !important;
+    font-size: 14px !important;
+  }
+  .description{
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .card--x--odd{
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    justify-content: center !important;
+    text-align: center !important;
+    align-items: center !important;
+    font-size: 14px !important; 
+
+   }
+  .description--odd{
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .complete--card{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content:center !important;
+    align-items: center !important;
+    margin: 0px !important;
+    margin-top: 300px !important;
+  }
+  .heading{
+    font-size: 30px !important;
+  }
+  .principle-image{
+    height: 200px !important;
+  }
+  .fadeintext{
+    margin-top: 450px;
+  }
+
+}
